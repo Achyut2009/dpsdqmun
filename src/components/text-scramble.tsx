@@ -14,9 +14,8 @@ export default function TextScramble({ text, className }: TextScrambleProps) {
 
   useEffect(() => {
     let resolvedIndex = -1;
-    let interval: NodeJS.Timeout;
-
-    const scramble = () => {
+    // Initialize interval immediately with the correct type
+    const interval: NodeJS.Timeout = setInterval(() => {
       let newText = '';
       for (let i = 0; i < text.length; i++) {
         if (text[i] === ' ') {
@@ -37,9 +36,7 @@ export default function TextScramble({ text, className }: TextScrambleProps) {
       } else {
         clearInterval(interval);
       }
-    };
-
-    interval = setInterval(scramble, 50);
+    }, 50);
 
     return () => clearInterval(interval);
   }, [text]);
@@ -49,7 +46,7 @@ export default function TextScramble({ text, className }: TextScrambleProps) {
       className={className} 
       style={{ 
         whiteSpace: 'pre',
-        fontFamily: 'monospace', // Using monospace font for stable width
+        fontFamily: 'inter',
         fontWeight: 'inherit',
         fontSize: 'inherit',
       }}
