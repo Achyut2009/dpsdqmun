@@ -1,5 +1,6 @@
 "use client";
 import { ThemeToggle } from "./toggle-theme";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -7,10 +8,10 @@ export default function Navbar() {
       <div className="flex flex-row justify-between items-center p-3 text-md font-bold text-gray-900 dark:text-gray-100 max-w-7xl mx-auto">
         <a href="/" className="text-lg text-red-500">DPSDQMUN</a>
         <div className="flex flex-row font-normal text-md">
-          <div className="px-3"><a href="/about">About</a></div>
-          <div className="px-3"><a href="/committees">Committees</a></div>
-          <div className="px-3"><a href="/team">Team</a></div>
-          <div className="px-3"><a href="/contact">Contact</a></div>
+          <div className="px-3"><Link href="/about">About</Link></div>
+          <div className="px-3"><Link href="/about">Comitees</Link></div>
+          <div className="px-3"><Link href="/about">Editions</Link></div>
+          <div className="px-3"><Link href="/about">Contact</Link></div>
         </div>
         <div>
           <ThemeToggle />
