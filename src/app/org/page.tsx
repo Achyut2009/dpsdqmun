@@ -38,7 +38,7 @@ export default function About() {
                             <p className="text-md">Teacher</p>
                         </div>
                     ))}
-                    <div className="flex flex-row gap-x-10 justify-center">
+                    <div className="flex flex-row gap-x-10 justify-center flex-wrap">
                         {teachers_b.map((person) => (
                             <div key={person.name} className="mb-8 flex flex-col items-center gap-1">
                                 <Image
@@ -59,7 +59,7 @@ export default function About() {
                     </div>
                 </div>
                 <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">Secretary-General</h1>
-                <div className="flex flex-row gap-x-10 justify-center">
+                <div className="flex flex-row gap-x-10 justify-center flex-wrap">
                     {Sg.map((person) => (
                         <div key={person.name} className="mb-8 flex flex-col items-center gap-1">
                             <Image
@@ -80,7 +80,7 @@ export default function About() {
                 </div>
                 <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">Operations</h1>
                 <div className="flex flex-col gap-x-10 justify-center">
-                    <div className="flex flex-row gap-x-10 justify-center">
+                    <div className="flex flex-row gap-x-10 justify-center flex-wrap">
                         {Operations.map((person) => (
                             <div key={person.name} className="mb-8 flex flex-col items-center gap-1">
                                 <Image
@@ -99,7 +99,7 @@ export default function About() {
                             </div>
                         ))}
                     </div>
-                    <div className="flex flex-row gap-x-10 justify-center">
+                    <div className="flex flex-row gap-x-10 justify-center flex-wrap">
                         {Deputy_Operations.map((person) => (
                             <div key={person.name} className="mb-8 flex flex-col items-center gap-1">
                                 <Image
@@ -120,7 +120,7 @@ export default function About() {
                     </div>
                 </div>
                 <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">Admins</h1>
-                <div className="flex flex-row gap-x-10 justify-center">
+                <div className="flex flex-row gap-x-10 justify-center flex-wrap">
                     {Admin.map((person) => (
                         <div key={person.name} className="mb-8 flex flex-col items-center gap-1">
                             <Image
@@ -160,7 +160,7 @@ export default function About() {
                     ))}
                 </div>
                 <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">IT Team</h1>
-                <div className="flex flex-row gap-x-10 justify-center">
+                <div className="flex flex-row gap-x-10 justify-center flex-wrap">
                     {IT.map((person) => (
                         <div key={person.name} className="mb-8 flex flex-col items-center gap-1">
                             <Image
