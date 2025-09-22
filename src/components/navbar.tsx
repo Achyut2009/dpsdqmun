@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link href="/" className="text-lg text-red-500">DPSDQMUN</Link>
         <div className="flex flex-row font-normal text-md">
           <div className="px-3"><Link href={"/about"}>About</Link></div>
-          <div className="px-3"><Link href={"/about"}>Comitees</Link></div>
+          <div className="px-3"><Link href={"/org"}>Organisers</Link></div>
           <div className="px-3"><Link href={"/about"}>Editions</Link></div>
           <div className="px-3"><Link href={"/about"}>Contact</Link></div>
         </div>
