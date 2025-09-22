@@ -1,6 +1,7 @@
 "use client";
 import { ThemeToggle } from "./toggle-theme";
 import Link from "next/link";
+import {FaInstagram} from "react-icons/fa"
 
 export default function Navbar() {
   return (
@@ -13,7 +14,8 @@ export default function Navbar() {
           <div className="px-3"><Link href={"/about"}>Editions</Link></div>
           <div className="px-3"><Link href={"/about"}>Contact</Link></div>
         </div>
-        <div>
+        <div className="flex flex-row items-center gap-4">
+          <Link href="https://www.instagram.com/dpsdqmun2025/" target="_blank"><FaInstagram /></Link>
           <ThemeToggle />
         </div>
       </div>
