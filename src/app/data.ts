@@ -1,9 +1,12 @@
-const teachers = [
+const teachers_a = [
     {
         name: "Amir Khan",
         image: "/2025/Amir.png",
         desc: "",
     },
+]
+
+const teachers_b = [
     {
         name: "Telma D'Souza",
         image: "/2025/Telma.png",
@@ -44,7 +47,10 @@ const Operations = [
         image: "/2025/Sharvi.png",
         desc: "",
     },
-    {
+]
+
+const Deputy_Operations = [
+        {
         name: "Arishta Singh",
         post: "Deputy Head of Operations",
         image: "/2025/Arishta.png",
@@ -136,9 +142,11 @@ const directors = [
 ]
 
 export {
-    teachers,
+    teachers_a,
+    teachers_b,
     Sg,
     Operations,
+    Deputy_Operations,
     Admin,
     Press,
     IT,
