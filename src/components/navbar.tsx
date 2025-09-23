@@ -13,6 +13,7 @@ export default function Navbar() {
                     <div className="px-3"><Link href={"/about"}>About</Link></div>
                     <div className="px-3"><Link href={"/org"}>Organising Committee</Link></div>
                     <div className="px-3"><Link href={"/agenda"}>Agenda/Committees</Link></div>
+                    <div className="px-3"><Link href={"/editions"}>Editions</Link></div>
                     <div className="px-3 hover:cursor-pointer"><ContactModal/></div>
                 </div>
                 <div className="flex flex-row items-center gap-4">
