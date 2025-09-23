@@ -34,6 +34,21 @@ const Sg = [
     }
 ]
 
+const general_assembly = [
+    {
+        name: "Aryaman Adhlakha",
+        post: "President-General Assembly",
+        image: "/2025/Aryaman.png",
+        desc: "",
+    },
+    {
+        name: "Rebecca Sara Philips",
+        post: "Deputy President-General Assembly",
+        image: "/2025/Rebecca.png",
+        desc: "",
+    },
+]
+
 const Operations = [
     {
         name: "Rushil Barve",
@@ -50,37 +65,25 @@ const Operations = [
 ]
 
 const Deputy_Operations = [
-        {
+    {
         name: "Arishta Singh",
         post: "Deputy Head of Operations",
         image: "/2025/Arishta.png",
         desc: "",
     },
-    {
-        name: "Rebecca Sara Philips",
-        post: "Deputy Head of Operations",
-        image: "/2025/Rebecca.png",
-        desc: "",
-    },
-    {
-        name: "Aryaman Adhlakha",
-        post: "Deputy Head of Operations",
-        image: "/2025/Aryaman.png",
-        desc: "",
-    }
 ]
 
 const Admin = [
     {
         name: "Ishant Parashar",
-        post: "Head of Administration",
+        post: "Head of Admins",
         image: "/2025/Ishant.png",
         desc: "",
     },
     {
         name: "Mohamad Hishaam",
-        post: "Deputy Head of Administration",
-        image: "/2025/Mohamad.png",
+        post: "Deputy Head of Admins",
+        image: "/2025/Hishaam.png",
         desc: "",
     }
 ]
@@ -109,34 +112,37 @@ const IT = [
     }
 ]
 
-const directors = [
+const directors_a = [
+    {
+        name: "Arishta Singh",
+        post: "Director",
+        image: "/2025/Arishta.png",
+    },
+    {
+        name: "Rebecca Sara Philips",
+        post: "Director",
+        image: "/2025/Rebecca.png",
+        desc: "",
+    },
+]
+
+const directors_b = [
     {
         name: "Archit Baberwal",
         post: "Director",
-        image: "",
+        image: "/2025/Archit.png",
         desc: "",
     },
     {
         name: "Rushil Barve",
         post: "Director",
-        image: "",
+        image: "/2025/Rushil.png",
         desc: "",
     },
     {
         name: "Mohamad Hishaam",
         post: "Director",
-        image: "",
-        desc: "",
-    },
-    {
-        name: "Arishta Singh",
-        post: "Director",
-        image: "",
-    },
-    {
-        name: "Rebecca Sara Philips",
-        post: "Director",
-        image: "",
+        image: "/2025/Mohamad.png",
         desc: "",
     },
 ]
@@ -145,10 +151,12 @@ export {
     teachers_a,
     teachers_b,
     Sg,
+    general_assembly,
     Operations,
     Deputy_Operations,
     Admin,
     Press,
     IT,
-    directors
+    directors_a,
+    directors_b
 }
