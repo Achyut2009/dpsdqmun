@@ -63,9 +63,9 @@ const Deputy_Operations = [
         desc: "",
     },
     {
-        name: "Aarav Deepak Singh",
+        name: "Aryaman Adhlakha",
         post: "Deputy Head of Operations",
-        image: "/2025/Aarav.png",
+        image: "/2025/Aryaman.png",
         desc: "",
     }
 ]

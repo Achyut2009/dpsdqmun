@@ -1,0 +1,28 @@
+"use client";
+
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog"
+
+export default function ContactModal() {
+    return (
+        <Dialog>
+            <DialogTrigger>Contact</DialogTrigger>
+            <DialogContent>
+                <DialogHeader>
+                    <DialogTitle>Contact details:-</DialogTitle>
+                    <DialogDescription className="text-md">
+                        Amir Khan Sir: +974 3392 2764 <br />
+                        Kakoli Biswas Ma'am: +974 ---- ---- <br />       
+                        Telma D'Souza Ma'am: +974 ---- ---- <br />
+                    </DialogDescription>
+                </DialogHeader>
+            </DialogContent>
+        </Dialog>
+    );
+}
