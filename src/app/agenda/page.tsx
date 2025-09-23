@@ -10,7 +10,7 @@ export default function Agenda() {
                     <h2 className="text-3xl font-semibold mb-3">UNITED NATIONS SECURITY COUNCIL (UNSC)</h2>
                     <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl text-center justify-start">
                         <span className="font-bold">Issue 1:</span> Ensuring Peace and Institutional Recovery in Post-War Sudan. <br />
-                        <span className="font-bold">Issue 2:</span> Addressing Maritime SSecurity and Regional Stability in the Red Sea Region.
+                        <span className="font-bold">Issue 2:</span> Addressing Maritime Security and Regional Stability in the Red Sea Region.
                     </p>
                 </div>
                 <div className="mb-8 flex flex-col items-center gap-1">
