@@ -16,7 +16,7 @@ export default function Home() {
           "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
         )}
       />
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
         <Image
           src="/favicon.ico"
           alt="DPSDQMUN Logo"
