@@ -36,7 +36,7 @@ export default function About() {
                                 width="200"
                             />
                             <h2 className="text-2xl font-semibold">{person.name}</h2>
-                            <p className="text-md">Teacher</p>
+                            <p className="text-md">MUN incharge</p>
                         </div>
                     ))}
                     <div className="flex flex-row gap-x-10 justify-center flex-wrap">
@@ -54,7 +54,7 @@ export default function About() {
                                     width="200"
                                 />
                                 <h2 className="text-2xl font-semibold">{person.name}</h2>
-                                <p className="text-md">Teacher</p>
+                                <p className="text-md">MUN incharge</p>
                             </div>
                         ))}
                     </div>
