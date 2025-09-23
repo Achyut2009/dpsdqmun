@@ -28,7 +28,7 @@ export default function Home() {
           <TextScramble text="DPS-DQ MUN" className="md:hidden text-6xl text-red-500" />
         </h1>
         <p className="mt-3 text-2xl text-gray-400 max-w-3xl">
-          An inter-school Model United Nations Conference hosted by students and teachers of DPS-Modern Indin School for all high school students in Qatar.
+          An inter-school Model United Nations Conference hosted by the students and teachers of DPS-Modern Indian School for all high school students in Qatar.
         </p>
       </main>
     </div>
