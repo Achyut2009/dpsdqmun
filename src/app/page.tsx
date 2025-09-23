@@ -24,8 +24,8 @@ export default function Home() {
           className="mb-8"
         />
         <h1 className="text-6xl font-bold">
-          <TextScramble text="Welcome to DPS-DQ MUN" className="md:visible invisible text-6xl text-red-500 font-bold" /> <br />
-          <TextScramble text="DPS-DQ MUN" className="md:hidden text-6xl text-red-500 font-bold" />
+          <TextScramble text="Welcome to DPS-DQ MUN" className="md:visible invisible text-6xl text-red-500" /> <br />
+          <TextScramble text="DPS-DQ MUN" className="md:hidden text-6xl text-red-500" />
         </h1>
         <p className="mt-3 text-2xl text-gray-400 max-w-3xl">
           An inter-school Model United Nations Conference hosted by students and teachers of DPS-Modern Indin School for all high school students in Qatar.
