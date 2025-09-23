@@ -126,3 +126,10 @@
         display: none;
     }
 }
+.textscramble1 {
+    @media (width <= 48rem /* 768px */) {
+        display: none;
+    }
+    font-size: 3rem;
+    color: oklch(63.7% 0.237 25.331); /* Tailwind's red-500 */
+}
