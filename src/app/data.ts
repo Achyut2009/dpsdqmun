@@ -142,7 +142,7 @@ const directors_b = [
     {
         name: "Mohamad Hishaam",
         post: "Director",
-        image: "/2025/Mohamad.png",
+        image: "/2025/Hishaam.png",
         desc: "",
     },
 ]
