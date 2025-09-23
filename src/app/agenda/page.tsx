@@ -23,7 +23,7 @@ export default function Agenda() {
                 <div className="mb-8 flex flex-col items-center gap-1">
                     <h2 className="text-3xl font-semibold mb-3">UNITED NATIONS WOMAN (UNW)</h2>
                     <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl text-center">
-                        <span className="font-bold">Issue 1:</span> Strengthening Women's Leadership in Peacebuilding through Regional Alliances. <br />
+                        <span className="font-bold">Issue 1:</span> Strengthening Women&apos;s Leadership in Peacebuilding through Regional Alliances. <br />
                         <span className="font-bold">Issue 2:</span> Enhancing Legal Safeguards for Woman in Informational and Domestic Employment.
                     </p>
                 </div>
