@@ -49,7 +49,7 @@ export default function About() {
         <section>
           <h2 className="text-3xl font-semibold text-yellow-300 mb-3">What Makes Us Unique</h2>
           <p className="text-lg leading-relaxed">
-            At DPS-DQ MUN, we don’t just simulate the UN—we redefine the MUN experience:
+            At DPS-DQ MUN, we don&apos;t just simulate the UN—we redefine the MUN experience:
             Innovative committees with relevant and thought-provoking agendas,
             student-driven leadership that ensures authenticity, a focus on inclusivity
             and diplomacy, and a growth-oriented environment welcoming both new and
