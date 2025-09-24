@@ -8,7 +8,7 @@ export default function About() {
     <div
       className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center bg-cover text-gray-800 dark:text-gray-200"
       id="about"
-      style={{ backgroundImage: "url('/images/about-bg.jpg')" }} // <-- place your image in /public/images/
+      style={{ backgroundImage: "url('/DPSDQMUN/public/2025/About_bg.png')" }} // <-- place your image in /public/images/
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/40 -z-10" />
@@ -63,7 +63,7 @@ export default function About() {
         <section>
           <h2 className="text-3xl font-semibold text-yellow-300 mb-3">Our Journey So Far</h2>
           <p className="text-lg leading-relaxed">
-            Since our inception in <span className="italic">[Insert Year]</span>, DPS-DQ MUN
+            Since our inception in <span className="italic">2019</span>, DPS-DQ MUN
             has expanded in scale, impact, and ambition. What began as a small gathering
             of passionate voices has grown into a professional, multi-committee
             conference that sparks change, drives conversation, and leaves lasting
