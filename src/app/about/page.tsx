@@ -6,9 +6,8 @@ import { cn } from "@/lib/utils";
 export default function About() {
   return (
     <div
-      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center bg-cover text-gray-800 dark:text-gray-200"
+      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center backdrop-blur-xs bg-[url(/2025/About_bg.png)] bg-cover text-gray-800 dark:text-gray-200"
       id="about"
-      style={{ backgroundImage: "url('/2025/About_bg.png')" }} // <-- place your image in /public/images/
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/40 -z-10" />
