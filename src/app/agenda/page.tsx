@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 export default function Agenda() {
     return (
         <div
-      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed backdrop-blur-md bg-white/30 bg-[url(/2025/Agenda_bg.png)] bg-cover text-white"
+      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed backdrop-blur-md bg-white/30 bg-[url(/2025/Agenda_bg.png)] md:visible invisible bg-cover text-white"
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/40 -z-10" />
