@@ -5,20 +5,12 @@ import { cn } from "@/lib/utils"
 
 export default function Agenda() {
     return (
-        <div
-      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center bg-cover text-gray-800 dark:text-gray-200"
-      id="about"
-      style={{ backgroundImage: "url('/2025/Agenda_bg.png')" }} // <-- place your image in /public/images/
-    >
-      {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-black/40 -z-10" />
-
-      {/* Background Pattern */}
-      <DotPattern
-        className={cn(
-          "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
-        )}
-      />
+        <div className="p-10 flex flex-col min-h-screen gap-10" id="agenda">
+            <DotPattern
+                className={cn(
+                    "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
+                )}
+            />
             <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">COMMITTEE ISSUE</h1>
             <div className="flex flex-col text-center max-w-5xl mx-auto">
                 <div className="mb-8 flex flex-col items-start gap-1">
