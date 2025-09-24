@@ -6,9 +6,10 @@ import { cn } from "@/lib/utils";
 export default function About() {
   return (
     <div
-      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center bg-cover text-gray-800 dark:text-gray-200"
-      id="about"
+      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed backdrop-blur-xs bg-white/30 bg-[url(/2025/About_bg.png)] bg-cover text-white"
     >
+      {/* Overlay for readability */}
+      <div className="absolute inset-0 bg-black/40 -z-10" />
 
       {/* Background Pattern */}
       <DotPattern
@@ -16,6 +17,7 @@ export default function About() {
           "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
         )}
       />
+
 
       {/* Page Heading */}
       <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">
