@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export default function About() {
   return (
     <div
-      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center backdrop-blur-xs bg-[url(/2025/About_bg.png)] bg-cover text-gray-800 dark:text-gray-200"
+      className="relative p-10 flex flex-col min-h-screen gap-10 bg-fixed bg-center backdrop-blur-xs bg-white/30 bg-[url(/2025/About_bg.png)] bg-cover text-gray-800 dark:text-gray-200"
       id="about"
     >
       {/* Overlay for readability */}
