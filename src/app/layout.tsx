@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "DPS-DQ MUN",
   description: "An interschool MUN conference organised by the students and teachers of DPS-Modern Indian School for all high school students in Qatar.",
     openGraph: {
-    title: "DPSDQMUN",
+    title: "DPS-DQ MUN",
     description:
       "An interschool MUN conference organised by the students and teachers of DPS-Modern Indian School for all high school students in Qatar.",
     images: [
