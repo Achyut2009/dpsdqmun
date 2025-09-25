@@ -19,7 +19,7 @@ export default function Agenda() {
       />
 
             <h1 className="text-5xl font-bold mb-5 text-red-500 text-center">COMMITTEE ISSUE</h1>
-            <div className="flex flex-col text-center max-w-5xl mx-auto">
+            <div className="flex flex-col max-w-5xl mx-auto text-left">
                 <div className="mb-8 flex flex-col items-start gap-1">
                     <h2 className="text-3xl text-yellow-300 font-semibold mb-3">UNITED NATIONS SECURITY COUNCIL (UNSC)</h2>
                     <p className="text-xl text-white text-start">

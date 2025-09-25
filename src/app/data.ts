@@ -75,9 +75,9 @@ const Deputy_Operations = [
 
 const Admin = [
     {
-        name: "Ishant Parashar",
+        name: "Ishan Parashar",
         post: "Head of Admins",
-        image: "/2025/Ishant.png",
+        image: "/2025/Ishan.png",
         desc: "",
     },
     {
