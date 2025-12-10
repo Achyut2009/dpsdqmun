@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Website for the War of Words Debate Championship 2024.
 
-## Getting Started
+![Site Image](https://cdn.aayus.me/uploads/Arc_77QlapuRtO.png)
 
-First, run the development server:
+This is the official website for the War of Words Debate Championship 2024; showcasing event details, schedule, organizing comittee and more.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## Guide
+To run the site locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/aayushxr/wwdc.git`
+2. Navigate to the project directory: `cd wwdc`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to `http://localhost:3000` to view the site. 
+
+## Directory Structure and Purpose
+
+### Root Level Structure
+```
+/
+├── app/                  # Next.js 13+ app directory (main application code)
+├── components/           # Reusable UI components
+├── lib/                  # Utility functions and shared logic
+├── public/              # Static assets
+├── data.tsx             # Central data management file
+└── [config files]       # Various configuration files (next.config.mjs, tailwind.config.ts, etc.)
+```
+1. /app Directory (Main Application Routes)
+```
+/app
+├── layout.tsx           # Root layout component
+├── page.tsx            # Homepage component
+├── globals.css         # Global styles
+├── about/              # About page route
+├── schedule/           # Schedule page route
+├── references/         # References page route
+├── motions/           # Motions page route
+├── 2022/              # 2022 content
+└── 2023/              # 2023 content
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. /components Directory
+```
+/components
+├── ui/                 # Shadcn UI components
+├── navbar.tsx          # Main navigation component
+├── mobile-nav.tsx     # Mobile navigation
+├── committee.tsx      # Committee related components
+├── video.tsx          # Video player component
+├── card.tsx           # Card component
+├── moving-cards.tsx   # Animated cards component
+└── [other UI components]
+```
+- Reusable UI components go here
+- Navigation-related changes: navbar.tsx and mobile-nav.tsx
+- New UI components should be added here with appropriate naming
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Common Development Tasks
 
-## Learn More
+### Adding New Pages
+- Create a new directory under /app
+- Add a page.tsx file in the new directory
+- Update navigation components if needed (navbar.tsx, mobile-nav.tsx)
 
-To learn more about Next.js, take a look at the following resources:
+### Modifying UI Components
+- Check /components directory for existing components
+- Shadcn UI components are in /components/ui
+- Create new components in /components if needed
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Styling Changes
+- Global styles: Modify /app/globals.css
+- Component-specific styles: Use Tailwind classes in component files
+- Theme customization: Update tailwind.config.ts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Data Updates
+- Modify data.tsx for content changes
+- Ensure type safety is maintained (TypeScript)
+- Update corresponding components that use the modified data
