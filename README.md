@@ -1,6 +1,6 @@
 # The official website for the DPS-DQ MUN 7th Edition 2025.
 
-![alternate text] (./public/2025/Screenshot 2025-12-10 231435.png)
+![alternate text] (public/2025/Screenshot 2025-12-10 231435.png)
 
 This is the official website for the DPS-DQ MUN 7th Edition 2025; showcasing event details, schedule, organizing comittee and more.
 
