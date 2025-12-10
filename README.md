@@ -1,6 +1,6 @@
 # The official website for the DPS-DQ MUN 7th Edition 2025.
 
-![Site Image](https://cdn.aayus.me/uploads/Arc_77QlapuRtO.png)
+/public/2025/Screenshot 2025-12-10 231435.png
 
 This is the official website for the War of Words Debate Championship 2024; showcasing event details, schedule, organizing comittee and more.
 
