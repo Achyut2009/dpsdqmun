@@ -1,4 +1,4 @@
-# The Website for the War of Words Debate Championship 2024.
+# The official website for the DPS-DQ MUN 7th Edition 2025.
 
 ![Site Image](https://cdn.aayus.me/uploads/Arc_77QlapuRtO.png)
 
@@ -8,8 +8,8 @@ This is the official website for the War of Words Debate Championship 2024; show
 ## Guide
 To run the site locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/aayushxr/wwdc.git`
-2. Navigate to the project directory: `cd wwdc`
+1. Clone the repository: `git clone https://github.com/Achyut2009/dpsdqmun.git`
+2. Navigate to the project directory: `cd myway`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open your browser and go to `http://localhost:3000` to view the site. 
@@ -19,12 +19,12 @@ To run the site locally, follow these steps:
 ### Root Level Structure
 ```
 /
-├── app/                  # Next.js 13+ app directory (main application code)
-├── components/           # Reusable UI components
-├── lib/                  # Utility functions and shared logic
-├── public/              # Static assets
-├── data.tsx             # Central data management file
-└── [config files]       # Various configuration files (next.config.mjs, tailwind.config.ts, etc.)
+├── app/                  # Next.js 15+ app directory (main application code)
+├── components/           # Reusable UI components using shadcn and tailwind css
+├── lib/                  # Utility functions and shared logic with Class Funcion
+├── public/               # Static assets
+├── hooks/                # Folder containing react hooks
+└── [config files]        # Various configuration files (next.config.mjs, tailwind.config.ts, etc.)
 ```
 1. /app Directory (Main Application Routes)
 ```
@@ -45,11 +45,11 @@ To run the site locally, follow these steps:
 /components
 ├── ui/                 # Shadcn UI components
 ├── navbar.tsx          # Main navigation component
-├── mobile-nav.tsx     # Mobile navigation
-├── committee.tsx      # Committee related components
+├── text-scamble.tsx    # Contaning the text animation
+├── footer.tsx         # Footer of the website
 ├── video.tsx          # Video player component
 ├── card.tsx           # Card component
-├── moving-cards.tsx   # Animated cards component
+├── contact-modal.tsx   # Modal/Dialog box for contact section
 └── [other UI components]
 ```
 - Reusable UI components go here
