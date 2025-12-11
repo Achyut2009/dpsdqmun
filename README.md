@@ -36,11 +36,8 @@ To run the site locally, follow these steps:
 ├── page.tsx            # Homepage component
 ├── globals.css         # Global styles
 ├── about/              # About page route
-├── schedule/           # Schedule page route
+├── agendas/           # Agendas/Comitees page route
 ├── references/         # References page route
-├── motions/           # Motions page route
-├── 2022/              # 2022 content
-└── 2023/              # 2023 content
 ```
 
 2. /components Directory
